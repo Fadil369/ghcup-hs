@@ -81,7 +81,7 @@ jobs:
         with:
           submodules: 'true'
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: artifacts
           path: ./out
@@ -121,7 +121,7 @@ jobs:
         with:
           submodules: 'true'
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: artifacts
           path: ./out
